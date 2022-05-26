@@ -11,6 +11,8 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="favicon.png" rel="shortcut icon" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	    <link rel="stylesheet" href="fonts/icomoon/style.css">
 	
 	    <script src="modernizr.js"></script>
 
@@ -21,21 +23,37 @@
 
 <!--- Nav Bar --->
 		   
-<ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-  </li>
-</ul>   
+<header id="navbar">
+        <nav class="navbar-container container">
+          <a href="/" class="home-link">
+            <div class="navbar-logo"></div>
+            Website Name
+          </a>
+          <button type="button" class="navbar-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navbar-menu">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <div id="navbar-menu" class="detached">
+            <ul class="navbar-links">
+              <li class="navbar-item"><a class="navbar-link" href="/about">About</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="/blog">Blog</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="/careers">Careers</a></li>
+              <li class="navbar-item"><a class="navbar-link" href="/contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+    <main>
+        <form id="options" class="container">
+            <label for="detached">Detached <input type="radio" checked name="navtype" id="detached" /></label>
+            <label for="attached">Attached <input type="radio" name="navtype" id="attached" /></label>
+            <label for="left-sidebar">Left sidebar <input type="radio" name="navtype" id="left-sidebar" /></label>
+            <label for="right-sidebar">Right sidebar <input type="radio" name="navtype" id="right-sidebar" /></label>
+        </form>
+    </main>
 		   
+<!--- End Nav Bar --->		   
 <!--- PAGE LOADING --->	
 <div class="preloading fadeIn">
 
@@ -70,7 +88,7 @@
 	                </div>
 
 					<div class="col-md-6 col-xs-12">
-                       <div class="lg-col-bg2" >
+                      			 <div class="lg-col-bg2" >
                                <img src="portrait.jpg" alt="" class="img-lg-col2">					   
                        </div>
 	                </div>
@@ -140,7 +158,8 @@
 		<!--- SCRIPTS --->
 	            <script src="jquery-2.1.1.js"></script>
                 <script src="main.js"></script>
-				<script src="bootstrap.min.js"></script>				
+				<script src="bootstrap.min.js"></script>
+		    <script src="index.js"></script>
 		<!--- THE END SCRIPTS --->	
 
 </div>
