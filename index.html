@@ -78,6 +78,7 @@
 			    <h1 class="fade-anime-top"> I'm Lauren Messemer </h1>
                             <h2 class="fade-anime-bottom">  Full Stack Developer. </h2>					
                        </div>
+			      <img src="portrait.jpg" alt="" class="img-lg-col2">	
 	              </div>
 		    </div>
 		    
@@ -109,11 +110,11 @@
 
 		      <div class="col-md-6 col-xs-12">
                      <div class="lg-col-bg2" >
-                     <img src="portrait.jpg" alt="" class="img-lg-col2">					   
-                       </div>
-	                </div>
+                    <img src="portrait.jpg" alt="" class="img-lg-col2">					   
+                   </div>
+	          </div>
 					
-				</div>
+		</div>
 		<!--- THE END ABOUT CLIENT --->            
 		  	   
 
@@ -169,55 +170,15 @@
                        <div class="footer-bg" >
 					      <div class="col-md-4 col-xs-12">
 						    <h1 div class="tfv"> Thanks for visiting. </h1>
-						    <a href="mailto:lauren.messemer@gmail.com"> <div class="ftr-lnk"> Just say hello </div> </a>
-                            </div>	                      
-				       </div>
-				</div>
+							    <a href="mailto:lauren.messemer@gmail.com"> <div class="ftr-lnk"> Just say hello </div> </a>
+                            			</div>	                      
+			 </div>
+		     </div>
 		</div>		
 		<!--- THE END FOOTER --->			
         
 		<!--- SCRIPTS --->
-		    <script>
-		    const navbar = document.getElementById("navbar");
-const navbarToggle = navbar.querySelector(".navbar-toggle");
 
-function openMobileNavbar() {
-  navbar.classList.add("opened");
-  navbarToggle.setAttribute("aria-expanded", "true");
-}
-
-function closeMobileNavbar() {
-  navbar.classList.remove("opened");
-  navbarToggle.setAttribute("aria-expanded", "false");
-}
-
-navbarToggle.addEventListener("click", () => {
-  if (navbar.classList.contains("opened")) {
-    closeMobileNavbar();
-  } else {
-    openMobileNavbar();
-  }
-});
-
-const navbarMenu = navbar.querySelector("#navbar-menu");
-const navbarLinksContainer = navbar.querySelector(".navbar-links");
-
-navbarLinksContainer.addEventListener("click", (clickEvent) => {
-  clickEvent.stopPropagation();
-});
-
-navbarMenu.addEventListener("click", closeMobileNavbar);
-
-document
-  .getElementById("options")
-  .querySelectorAll("input[name='navtype']")
-  .forEach((option) => {
-    option.addEventListener("change", (e) => {
-      const navType = e.target.id.split("-").join(" ");
-      navbarMenu.classList = navType;
-    });
-  });
-		    </script>
 	            <script src="jquery-2.1.1.js"></script>
                 <script src="main.js"></script>
 				<script src="bootstrap.min.js"></script>
