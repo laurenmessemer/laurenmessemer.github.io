@@ -62,7 +62,7 @@ a {
     font-size: 1rem; }
     .site-navbar .site-logo a {
       text-transform: uppercase;
-      color: #fff;
+      color: #111;
       font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
     @media (max-width: 991.98px) {
       .site-navbar .site-logo {
@@ -75,7 +75,7 @@ a {
     padding: 0;
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color: #fff !important; }
+      color: #111 !important; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -86,7 +86,7 @@ a {
         margin-right: 15px;
         padding: 20px 0px;
         font-size: 15px;
-        color: #fff !important;
+        color: #111 !important;
         display: inline-block;
         text-decoration: none !important;
         position: relative; }
@@ -160,8 +160,8 @@ a {
             position: absolute;
             pointer-events: none; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top:before {
-            border-color: #fff);
-            border-bottom-color: #fff;
+            border-color: #111);
+            border-bottom-color: #111;
             border-width: 10px;
             margin-left: -10px; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown a {
@@ -172,7 +172,7 @@ a {
           transition: 0s all;
           color: #000 !important; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown a.active {
-            color: #fff !important;
+            color: #111 !important;
             background: #fff; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
@@ -275,14 +275,14 @@ a {
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #fff; }
+        color: #111; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li .nav-link.active {
-        color: #fff; }
+        color: #111; }
       .site-mobile-menu .site-nav-wrap li.active > a {
-        color: #fff; }
+        color: #111; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
