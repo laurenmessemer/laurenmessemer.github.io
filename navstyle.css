@@ -10,7 +10,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: #fff;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
@@ -22,7 +22,7 @@ body {
     visibility: visible; }
 
 p {
-  color: #b3b3b3;
+  color: ##111;
   font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6,
@@ -86,7 +86,7 @@ a {
         margin-right: 15px;
         padding: 20px 0px;
         font-size: 15px;
-        color: rgba(255, 255, 255, 0.7) !important;
+        color: #fff !important;
         display: inline-block;
         text-decoration: none !important;
         position: relative; }
@@ -111,7 +111,7 @@ a {
             -ms-transform: scale(1);
             transform: scale(1); }
       .site-navbar .site-navigation .site-menu > li.active > a {
-        color: #fff !important; }
+        color: #111 !important; }
         .site-navbar .site-navigation .site-menu > li.active > a:before {
           -webkit-transform: scale(1);
           -ms-transform: scale(1);
@@ -160,7 +160,7 @@ a {
             position: absolute;
             pointer-events: none; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top:before {
-            border-color: rgba(136, 183, 213, 0);
+            border-color: #fff);
             border-bottom-color: #fff;
             border-width: 10px;
             margin-left: -10px; }
@@ -173,7 +173,7 @@ a {
           color: #000 !important; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown a.active {
             color: #eb4d55 !important;
-            background: #f8f9fa; }
+            background: #fff; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
           list-style: none;
           padding: 0;
@@ -183,7 +183,7 @@ a {
             padding: 9px 20px;
             display: block; }
             .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
-              background: #f8f9fa;
+              background: #fff;
               color: #ced4da; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children > a:before {
             content: "\e315";
