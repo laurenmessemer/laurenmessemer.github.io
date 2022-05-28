@@ -36,6 +36,9 @@ a {
   a, a:hover {
     text-decoration: none !important; }
 
+.body1 {
+  position: relative;}
+
 .hero {
   height: 100vh;
   width: 100%;
@@ -44,7 +47,7 @@ a {
 .site-navbar {
   margin-bottom: 0px;
   z-index: 1999;
-  position: relative;
+  position: absolute;
   top: 0;
   width: 100%;
   padding: 1rem;
