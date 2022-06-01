@@ -6,8 +6,8 @@
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #fff;
-    color: #ffd201;
+    background-color: #ffd201;
+    color: #fff;
   }
 
 
