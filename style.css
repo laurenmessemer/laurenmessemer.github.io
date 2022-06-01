@@ -3,8 +3,6 @@
 
 /*** GRID SECTION ***/
 
-HTML CSSResult Skip Results Iframe
-EDIT ON
 body {
   margin: 40px;
 }
@@ -12,13 +10,13 @@ body {
 .wrapper {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #fff;
-    color: #444;
+    color: #ffd201;
   }
 
   .box {
-    background-color: #444;
+    background-color: #ffd201;
     color: #fff;
     border-radius: 5px;
     padding: 20px;
@@ -35,10 +33,6 @@ body {
   }
   .c {
     grid-column: 1 ;
-    grid-row: 2 ;
-  }
-  .d {
-    grid-column: 2 ;
     grid-row: 2 ;
   }
 
