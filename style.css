@@ -5,8 +5,7 @@
 
 .wrapper {
 	display: grid;
-	grid-gap: 30em;
-	grid-template-columns: 1fr 35%;
+	grid-gap: 1em;
 }
 
   .a {
@@ -18,8 +17,8 @@
   background: #456BD9;
   border: 0.1875em solid #0F1C3F;
   border-radius: 50%;
-  height: 40em;
-  width: 40em;
+  height: 100em;
+  width: 100em;
   }
 
 
