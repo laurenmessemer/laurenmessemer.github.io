@@ -6,7 +6,7 @@
 .wrapper {
 	display: grid;
 	grid-gap: 30em;
-	grid-template-columns: 1fr 30%;
+	grid-template-columns: 1fr 35%;
 }
 
   .a {
@@ -18,8 +18,8 @@
   background: #456BD9;
   border: 0.1875em solid #0F1C3F;
   border-radius: 50%;
-  height: 20em;
-  width: 20em;
+  height: 40em;
+  width: 40em;
   }
 
 
