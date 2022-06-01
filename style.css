@@ -7,11 +7,10 @@
 	display: grid;
 	grid-gap: 1em;
 	grid-template-columns: 2frm 1frm;
-	
 }
 
   .a {
-    grid-column: 1;
+    grid-column: 1 / span 2;
 }
 
 .circle {
