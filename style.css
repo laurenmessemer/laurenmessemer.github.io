@@ -8,10 +8,6 @@
   grid-template-columns: 1fr 1fr:
 }
 
-.box {
-  color: #111	
-}
-
 .circle {
   background: #456BD9;
   border: 0.1875em solid #0F1C3F;
