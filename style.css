@@ -4,11 +4,18 @@
 /*** GRID SECTION ***/
 
 .wrapper {
+	display: grid;
+	grid-gap: 30em;
+	grid-template-columns: 1fr 30%;
+	
+
+}
+.circle {
   background: #456BD9;
   border: 0.1875em solid #0F1C3F;
   border-radius: 50%;
-  height: 1frm;
-  width: 1frm;
+  height: 20em;
+  width: 20em;
   }
 
 
