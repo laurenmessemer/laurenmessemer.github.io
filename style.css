@@ -806,7 +806,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 /*** ROW FOOTER ***/
 .row.footer {
   width: 40px;
-height: 100px;
+  height: 200px;
 }
 /*** END ROW FOOTER ***/
 
