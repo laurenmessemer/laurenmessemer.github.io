@@ -57,13 +57,17 @@ grid-row-gap: 1em;
 /*** BODY ***/
 body {
     font-family: 'Roboto', sans-serif;
-	font-size: .8em;
+	font-size: 1.3em;
 	line-height: 1.8em;
 	color: #161616;
 	background-color: transparent;
 	letter-spacing: 0.03em;
 }
 
+.bodytext {
+	font-size: .9em;
+	padding: 3%;
+}
 
 /*** THE END BODY ***/
 
