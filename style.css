@@ -48,6 +48,11 @@ body {
 .h1, h1 {
 	font-size: 2.6em !important;
 }
+		
+.tfv {
+	font-size: 2.6em !important;
+	text-align: center;
+}
 
 .hero-bg {
     height: 70vh !important;
@@ -55,13 +60,6 @@ body {
 	padding-left: 15px !important;
 }
 	
-	
-.tfv {
-	font-size: 2.6em !important;
-	text-align: center;
-}
-
-
 .h2, h2 {
 	font-size: 1.8em !important;
 }
