@@ -8,12 +8,6 @@
   grid-template-columns: 1fr 1fr:
 }
 
-.hero-bg {
-    height: 70vh !important;
-	padding-top: 30vh !important;
-	padding-left: 15px !important;
-}
-
 .circle {
   background: #456BD9;
   border: 0.1875em solid #0F1C3F;
@@ -55,6 +49,13 @@ body {
 	font-size: 2.6em !important;
 }
 
+.hero-bg {
+    height: 70vh !important;
+	padding-top: 30vh !important;
+	padding-left: 15px !important;
+}
+	
+	
 .tfv {
 	font-size: 2.6em !important;
 	text-align: center;
