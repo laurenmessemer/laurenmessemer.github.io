@@ -1,29 +1,6 @@
 /* Style Css to This Template */
 /* Template Name: Starter Theme to Web Projects*/
 
-/*** GRID SECTION ***/
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr:
-}
-
-.hero-bg {
-    height: 70vh !important;
-	padding-top: 30vh !important;
-	padding-left: 15px !important;
-
-.circle {
-  background: #456BD9;
-  border: 0.1875em solid #0F1C3F;
-  border-radius: 50%;
-  height: 40em;
-  width: 40em;
-  }
-
-
-/*** END GRID SECTION ***/
-
 
 /*** BODY ***/
 body {
@@ -59,6 +36,11 @@ body {
 	text-align: center;
 }
 
+.hero-bg {
+    height: 70vh !important;
+	padding-top: 30vh !important;
+	padding-left: 15px !important;
+}
 
 .h2, h2 {
 	font-size: 1.8em !important;
@@ -768,4 +750,3 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 /*** THE END SLIDE ***/
-
