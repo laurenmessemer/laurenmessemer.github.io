@@ -1,6 +1,14 @@
 /* Style Css to This Template */
 /* Template Name: Starter Theme to Web Projects*/
 
+/*** GRID ***/
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 28px;
+grid-row-gap: 28px;
+}
 
 /*** BODY ***/
 body {
