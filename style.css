@@ -29,8 +29,6 @@ body {
 	background-color: transparent;
 	letter-spacing: 0.03em;
 }
-
-
 /*** THE END BODY ***/
 
 /*** MEDIA ***/
@@ -48,7 +46,7 @@ body {
 .h1, h1 {
 	font-size: 2.6em !important;
 }
-		
+
 .tfv {
 	font-size: 2.6em !important;
 	text-align: center;
@@ -59,7 +57,7 @@ body {
 	padding-top: 30vh !important;
 	padding-left: 15px !important;
 }
-	
+
 .h2, h2 {
 	font-size: 1.8em !important;
 }
@@ -112,7 +110,7 @@ body {
 .nav-ttl {
 	top: 36px !important;
 	font-size: 1.3em !important;
-	position: relative !important;
+	position: absolute !important;
 	left: 5% !important;
 	display: none;
 }
@@ -542,7 +540,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .prjct-wrt-right-wrk {
-   position: relative; 
+   position: absolute; 
    right:3%;
    top:12%;
    font-size: 2.6em;
@@ -552,7 +550,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .prjct-wrt-left-wrk {
-   position: relative; 
+   position: absolute; 
    left:3%;
    top:12%;
    font-size: 2.6em;
@@ -562,7 +560,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .prjct-wrt-left-wrk-big {
-   position: relative; 
+   position: absolute; 
    left:3%;
    top:7%;
    font-size: 2.6em;
@@ -603,7 +601,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .prjct-wrt-right {
-   position: relative; 
+   position: absolute; 
    right:3%;
    top:9%;
    font-size: 2.6em;
@@ -613,7 +611,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .prjct-wrt-left {
-   position: relative; 
+   position: absolute; 
    left:3%;
    top:9%;
    font-size: 2.6em;
