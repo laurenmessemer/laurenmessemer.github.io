@@ -112,7 +112,7 @@ body {
 }
 
 .lg-col-wrt {
-	font-size: 5px !important;
+	font-size: .8em !important;
 	padding: 3% !important;
 }
 
@@ -138,7 +138,7 @@ body {
 }
 
 .lg-col-bg2 {
-	margin-top: 3em !important;
+	margin-top: 5em !important;
 	margin-bottom: .5em !important;
 	display: none !important;
 }
