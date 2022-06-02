@@ -64,10 +64,6 @@ body {
 	letter-spacing: 0.03em;
 }
 
-.bodytext {
-	font-size: 1.4em;
-}
-
 /*** THE END BODY ***/
 
 /*** MEDIA ***/
@@ -115,7 +111,7 @@ body {
 }
 
 .lg-col-wrt {
-	font-size: .8em !important;
+	font-size: 1.3em !important;
 	padding: 3% !important;
 }
 
